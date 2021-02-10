@@ -1,0 +1,14 @@
+.header {
+    grid-area: h;
+    /*border-radius: 5px;*/
+    /*height: 100%;*/
+    box-shadow: 0 0 2px 0 dimgray;
+    background-color: #ffffff;
+
+}
+
+.header img {
+    height: 60px;
+    border-radius: 5px;
+    /*width: 60px;*/
+}

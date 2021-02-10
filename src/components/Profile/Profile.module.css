@@ -1,0 +1,21 @@
+.content {
+    grid-area: c;
+    /*border: 1px solid dimgray;*/
+    border-radius: 5px;
+    box-shadow: 0 0 2px 0 dimgray;
+    background-color: #ffffff;
+
+    /*background-color: cadetblue;*/
+}
+
+.background {
+    height: 150px;
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.photo {
+    height: 150px;
+    /*width: 150px;*/
+}
