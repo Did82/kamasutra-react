@@ -1,8 +1,26 @@
 .nav {
     grid-area: n;
     padding: 10px;
-    /*border: 1px solid dimgray;*/
     border-radius: 5px;
     box-shadow: 0px 0px 2px 0px dimgray;
     background-color: #FFFFFF;
+    height: min-content;
+}
+
+.nav a {
+    text-decoration: none;
+}
+
+.item {
+    margin-bottom: 10px;
+}
+
+.active {
+    display: block;
+    height: 1.5rem;
+    line-height: 150%;
+    text-justify: auto;
+    border-left: 2px solid aqua;
+    background-color: lightgray;
+    padding-left: 5px;
 }
