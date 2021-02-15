@@ -1,0 +1,31 @@
+.dialogs {
+    display: grid;
+    grid-template-columns: 0.5fr 1.5fr;
+    padding: 10px;
+}
+
+.dialogsItems {
+    padding: 10px;
+    border-right: 1px solid lightgray;
+
+}
+
+.dialog {
+    margin-bottom: 10px;
+    height: 1.5rem;
+    line-height: 150%;
+}
+
+.active {
+    border-left: 2px solid aqua;
+    background-color: lightgray;
+    padding-left: 5px;
+}
+
+.messages {
+    padding: 10px;
+}
+
+.message {
+
+}

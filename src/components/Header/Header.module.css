@@ -1,14 +1,25 @@
 .header {
     grid-area: h;
-    /*border-radius: 5px;*/
-    /*height: 100%;*/
-    box-shadow: 0 0 2px 0 dimgray;
+    display: grid;
+    grid-template-columns: 1fr 0.7fr 2.3fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 20px;
+    grid-template-areas:
+    "hl hw hw hr";
     background-color: #ffffff;
-
+    border-bottom: 1px solid lightgray;
+    padding: 5px 0;
 }
 
-.header img {
-    height: 60px;
-    border-radius: 5px;
+.headerWrapper {
+    grid-area: hw;
+    /*max-width: 80%;*/
+}
+
+.headerWrapper img {
+    height: 50px;
+    /*padding-left: 26%;*/
+    /*border-radius: 5px;*/
+    /*background-color: white;*/
     /*width: 60px;*/
 }

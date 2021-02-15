@@ -3,7 +3,9 @@ import s from './Header.module.css';
 const Header = () => {
     return (
         <header className={s.header}>
-            <img src="https://i.pinimg.com/originals/33/b8/69/33b869f90619e81763dbf1fccc896d8d.jpg" alt="logo"/>
+            <div className={s.headerWrapper}>
+                <img src="https://www.vippng.com/png/full/39-398445_blue-lion-logo-png-lion-blue-png.png" alt="logo"/>
+            </div>
         </header>
     )
 };
