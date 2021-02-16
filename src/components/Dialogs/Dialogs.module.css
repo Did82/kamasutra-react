@@ -16,10 +16,27 @@
     line-height: 150%;
 }
 
+.dialog a {
+    display: block;
+    text-decoration: none;
+    height: 1.5rem;
+    line-height: 150%;
+    color: black;
+}
+
+.dialog a:hover {
+    background-color: lightgray;
+    border-radius: 3px;
+}
+
 .active {
+    display: block;
+    height: 1.5rem;
+    line-height: 150%;
     border-left: 2px solid aqua;
     background-color: lightgray;
     padding-left: 5px;
+    border-radius: 3px;
 }
 
 .messages {

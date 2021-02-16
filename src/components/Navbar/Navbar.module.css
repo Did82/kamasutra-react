@@ -1,7 +1,5 @@
 .nav {
     grid-area: n;
-    /*padding: 10px;*/
-    /*border-right: 1px solid lightgray;*/
 }
 
 .nav a {
@@ -25,7 +23,6 @@
     display: block;
     height: 1.5rem;
     line-height: 150%;
-    /*text-justify: auto;*/
     border-left: 2px solid aqua;
     background-color: lightgray;
     padding-left: 5px;

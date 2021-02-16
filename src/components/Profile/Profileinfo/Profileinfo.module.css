@@ -1,0 +1,12 @@
+.description {
+    display: flex;
+    margin-top: 10px;
+}
+
+.photo {
+    height: 150px;
+}
+
+.info {
+    padding-left: 10px;
+}
