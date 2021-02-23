@@ -4,6 +4,7 @@
 
 .nav a {
     display: block;
+    padding-left: 5px;
     text-decoration: none;
     height: 1.5rem;
     line-height: 150%;
@@ -25,7 +26,7 @@
     line-height: 150%;
     border-left: 2px solid aqua;
     background-color: lightgray;
-    padding-left: 5px;
+    /*padding-left: 10px;*/
     border-radius: 3px;
 
 }
