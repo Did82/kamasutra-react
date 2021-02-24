@@ -9,9 +9,6 @@ const Profile = () => {
                 <img className={s.background} src="https://p.bigstockphoto.com/GeFvQkBbSLaMdpKXF1Zv_bigstock-Aerial-View-Of-Blue-Lakes-And--227291596.jpg" alt=""/>
             </div>
             <Profileinfo/>
-            <div>
-                Main content
-            </div>
             <MyPosts />
         </div>
     )
