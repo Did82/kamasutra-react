@@ -5,7 +5,7 @@ import Profileinfo from "./Profileinfo/Profileinfo";
 const Profile = (props) => {
 
     return (
-        <div>
+        <div className="px-2">
             <div>
                 <img className={s.background} src="https://p.bigstockphoto.com/GeFvQkBbSLaMdpKXF1Zv_bigstock-Aerial-View-Of-Blue-Lakes-And--227291596.jpg" alt=""/>
             </div>

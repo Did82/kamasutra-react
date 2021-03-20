@@ -9,11 +9,11 @@ const Dialogs = (props) => {
     const messagesElements = props.state.messages.map(msg => <Message message={msg.message}/>);
 
     return (
-        <div className={s.dialogs}>
-            <div className={s.dialogsItems}>
+        <div className="flex p-1 shadow rounded bg-white divide-x divide-purple-600">
+            <div className="w-1/4 px-2">
                 {dialogsElements}
             </div>
-            <div className={s.messages}>
+            <div className="w-3/4 px-2">
                 {messagesElements}
             </div>
         </div>
