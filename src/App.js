@@ -1,4 +1,3 @@
-// import './App.css';
 import Header from "./components/Header/Header";
 import Navbar from "./components/Navbar/Navbar";
 import Dialogs from "./components/Dialogs/Dialogs";
@@ -13,9 +12,9 @@ const App = (props) => {
         <BrowserRouter>
             <div className="min-h-screen bg-gray-100 text-gray-700">
                 <Header/>
-                <main className="max-w-5xl mx-auto mt-8 flex">
+                <main className="max-w-5xl mx-auto mt-4 flex">
                     <Navbar/>
-                    <div className="w-3/4">
+                    <div className="w-3/4 p-1 m-1">
                         <Route path='/profile' render={() => <Profile state={props.state.profilePage}/>}/>
                         <Route path='/dialogs' render={() => <Dialogs state={props.state.dialogsPage}/>}/>
                         <Route path='/news' render={() => <News/>}/>

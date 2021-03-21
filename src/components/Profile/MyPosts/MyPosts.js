@@ -1,4 +1,3 @@
-import s from './MyPosts.module.css';
 import Post from "./Post/Post";
 
 const MyPosts = (props) => {
@@ -6,17 +5,17 @@ const MyPosts = (props) => {
     const postsElements = props.posts.map(post => <Post message={post.msg} likesCount={post.likesCount}/>)
 
     return (
-        <div>
+        <div className="">
             My posts
-            <div>
+            <div className="mb-4">
                 <div>
-                    <textarea></textarea>
+                    <textarea className="bg-gray-200"></textarea>
                 </div>
                 <div>
-                    <button>Add post</button>
+                    <button className="bg-purple-600 text-white px-2 rounded hover:bg-purple-800">Add post</button>
                 </div>
             </div>
-            <div className={s.posts}>
+            <div className="">
                 {postsElements}
             </div>
         </div>

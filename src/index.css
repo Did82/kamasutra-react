@@ -3,9 +3,13 @@
 @tailwind utilities;
 
 .nav {
-    @apply p-1 m-1 hover:bg-gray-300 rounded block;
+    @apply p-1 m-1 hover:bg-gray-300 rounded flex items-center
 }
 
 .active {
-    @apply p-1 m-1 rounded block bg-gray-300 border-l-2 border-purple-600;
+    @apply bg-gray-300 border-l-2 border-purple-600;
+}
+
+.icon {
+    @apply h-4 text-purple-600 mr-2;
 }
