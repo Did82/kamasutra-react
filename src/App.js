@@ -13,7 +13,7 @@ const App = (props) => {
             <div className="min-h-screen bg-gray-100 text-gray-700">
                 <Header/>
                 <main className="max-w-5xl mx-auto mt-4 flex">
-                    <Navbar/>
+                    <Navbar state={props.state.dialogsPage}/>
                     <div className="w-3/4 p-1 m-1">
                         <Route path='/profile' render={() => <Profile state={props.state.profilePage}/>}/>
                         <Route path='/dialogs' render={() => <Dialogs state={props.state.dialogsPage}/>}/>
