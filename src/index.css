@@ -13,3 +13,9 @@
 .icon {
     @apply h-4 text-purple-600 mr-2;
 }
+
+[contenteditable=true]:empty:before {
+    content: attr(placeholder);
+    display: block;
+    color: #aaa;
+}
