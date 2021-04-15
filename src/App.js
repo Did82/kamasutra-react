@@ -14,9 +14,10 @@ const App = (props) => {
                 <Header/>
                 <main className="max-w-5xl mx-auto mt-4 flex">
                     <Navbar state={props.state.dialogsPage}/>
-                    <div className="w-3/4 p-1 m-1">
-                        <Route path='/profile' render={() => <Profile state={props.state.profilePage}/>}/>
-                        <Route path='/dialogs' render={() => <Dialogs state={props.state.dialogsPage}/>}/>
+                    <div className="w-3/4 p-1 m-1 mb-20">
+                        <Route path='/profile'
+                               render={() => <Profile state={props.state.profilePage} dispatch={props.dispatch}/>}/>
+                        <Route path='/dialogs' render={() => <Dialogs state={props.state.dialogsPage} dispatch={props.dispatch}/>}/>
                         <Route path='/news' render={() => <News/>}/>
                         <Route path='/music' render={() => <Music/>}/>
                         <Route path='/settings' render={() => <Settings/>}/>

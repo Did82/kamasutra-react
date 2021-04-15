@@ -1,4 +1,4 @@
-export const Profileinfo = (props) => {
+const Profileinfo = () => {
     return (
         <div className="flex mb-4">
             <div className="">

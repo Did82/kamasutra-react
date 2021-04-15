@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .nav {
-    @apply p-1 m-1 hover:bg-gray-300 rounded flex items-center
+    @apply p-1 m-1 hover:bg-gray-300 rounded flex items-center gap-1
 }
 
 .active {
@@ -11,7 +11,7 @@
 }
 
 .icon {
-    @apply h-4 text-purple-600 mr-2;
+    @apply h-6 text-purple-600 mx-2;
 }
 
 [contenteditable=true]:empty:before {
